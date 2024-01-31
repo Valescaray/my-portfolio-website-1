@@ -1,0 +1,110 @@
+/* Global Properties */
+html {
+    scroll-behavior: smooth;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;}
+
+    
+
+
+.navigation {
+    color: rgb(255, 255, 255);
+}
+
+.navigation:hover {
+    color: #f5ba09;
+    
+}
+
+.git {
+    margin-left: 50%;
+    margin-top: 10px;
+    color: white;
+}
+
+.git:hover {
+    color: #f5ba09;
+}
+
+.sections {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.border-box {
+    width: 200px;
+    height: 150px;
+    border: 2px ;
+    background: rgb(22, 22, 22) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  rgb(32, 31, 31);
+    margin-left: 60px;
+
+}
+
+.border-box img {
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.border-box:hover {
+    background-color: #f5ba09 ;
+}
+
+
+.border-box-1 {
+    max-width: 910px;
+    min-height: 200px;
+    border: 2px ;
+    background: rgb(22, 22, 22) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  rgb(32, 31, 31);
+    margin-left: 120px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .border-box-1 {
+        position: relative;
+        right: 50px;
+    }
+
+    .icon-1 {
+       position: relative;
+       right: 35px;
+    }
+
+
+    .border-box-2 {
+        position: relative;
+        right: 40px;
+        
+        
+    }
+    
+}
+
+.icon-1 {
+    margin-left: 45%;
+}
+
+.projects-border {
+    background: rgb(22, 22, 22) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  rgb(32, 31, 31);
+}
+
+.border-box-2 {
+    max-width: 910px;
+    min-width: 200px;
+    border: 2px ;
+    background: rgb(22, 22, 22) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  rgb(32, 31, 31);
+    margin-left: 120px;
+}
