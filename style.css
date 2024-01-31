@@ -89,6 +89,14 @@ html {
     
 }
 
+@media only screen and (min-width: 466px) and (max-width: 768px) {
+
+    .border-box {
+        margin-left: 100px;
+    }
+ }
+
+
 .icon-1 {
     margin-left: 45%;
 }
